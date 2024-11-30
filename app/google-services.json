@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "215631999103",
+    "firebase_url": "https://quiz-math-bc23b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "quiz-math-bc23b",
+    "storage_bucket": "quiz-math-bc23b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215631999103:android:9a1d22a633b45127784f4a",
+        "android_client_info": {
+          "package_name": "com.example.test_quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuHiT-QPivTgdlZlUvgeHHA93aaHqQeXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<resources>
+    <string name="text">"Quy định chung"</string>
+
+    <string name="app_name">Quizzer</string>
+    <string name="navigation_drawer_open">Mở menu điều hướng</string>
+    <string name="navigation_drawer_close">Đóng menu điều hướng</string>
+    <string name="nav_header_desc">Tiêu đề menu điều hướng</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="email_unverified">Xác minh email chưa hoàn tất. Vui lòng kiểm tra email của bạn.</string>
+    <string name="email_sent">Email xác minh đã được gửi. Vui lòng kiểm tra email của bạn.</string>
+    <string name="Welcome">Chào mừng bạn trở lại, Người dùng</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Mật khẩu quá ngắn, vui lòng nhập ít nhất 6 ký tự!</string>
+    <string name="auth_failed">Xác thực thất bại, vui lòng kiểm tra lại email và mật khẩu của bạn hoặc đăng ký</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">ĐĂNG NHẬP</string>
+    <string name="btn_link_to_register">Đăng ký ngay!</string>
+    <string name="btn_link_to_login">Đã có tài khoản? Đăng nhập</string>
+    <string name="btn_forgot_password">Quên mật khẩu?</string>
+    <string name="btn_reset_password">Đặt lại mật khẩu</string>
+    <string name="btn_back"><![CDATA[<< Quay lại]]></string>
+    <string name="lbl_forgot_password">Quên mật khẩu?</string>
+    <string name="forgot_password_msg">Nhập email đã đăng ký của bạn để gửi hướng dẫn đặt lại mật khẩu.</string>
+    <string name="title_activity_tests">Bài kiểm tra</string>
+    <string name="Sign_in_login">Đăng nhập</string>
+    <string name="e_mail_text_view_login">EMAIL</string>
+    <string name="e_mail_text_view_pass">MẬT KHẨU</string>
+    <string name="remember_me">Ghi nhớ</string>
+    <string name="Sign_in_signup">Đăng ký</string>
+    <string name="action_sign_in_btn">Đăng ký</string>
+    <string name="title_activity_UPdate">Cập nhật thông tin</string>
+    <string-array name="Sem_Choice" >
+        <item>Nguyễn Minh Tú</item>
+        <item>Phạm Thị Lan</item>
+    </string-array>
+    <string-array name="Branch_Choice">
+        <item>Phường Ngọc Khánh, Quận Ba Đình, Hà Nội</item>
+        <item>Xã Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh</item>
+        <item>Xã Hòa Phước, Huyện Hòa Vang, Đà Nẵng</item>
+    </string-array>
+    <string-array name="College_Choice">
+        <item>0901234567</item>
+        <item>0912345678</item>
+        <item>0923456789</item>
+        <item>0934567890</item>
+        <item>0945678901</item>
+        <item>0956789012</item>
+        <item>0967890123</item>
+        <item>0978901234</item>
+    </string-array>
+
+</resources>
