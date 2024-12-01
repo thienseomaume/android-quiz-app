@@ -244,22 +244,27 @@ public class Custom_quiz extends AppCompatActivity {
         question.setText(question1.getQuestion());
         aText.setText(question1.getOpt_A());
         bText.setText(question1.getOpt_B());
-        cText.setText(question1.getOpt_C());
-        dText.setText(question1.getOpt_D());
-        switch (question1.getAnswer()){
-            case "A":
-                aRadio.setChecked(true);
-                break;
-            case "B":
-                bRadio.setChecked(true);
-                break;
-            case "C":
-                cRadio.setChecked(true);
-                break;
-            case "D":
-                dRadio.setChecked(true);
-                break;
+            cText.setText(question1.getOpt_C());
+            dText.setText(question1.getOpt_D());
+            String a = question1.getOpt_A();
+        String b = question1.getOpt_B();
+        String c = question1.getOpt_C();
+        String d = question1.getOpt_D();
+            switch (question1.getAnswer()){
+                case "q":
+                    break;
         }
+        String answer = question1.getAnswer();
+        if (answer.equals(a)) {
+            aRadio.setChecked(true);
+        } else if (answer.equals(b)) {
+            bRadio.setChecked(true);
+        } else if (answer.equals(c)) {
+            cRadio.setChecked(true);
+        } else if (answer.equals(d)) {
+            dRadio.setChecked(true);
+        }
+
     }
 
     private void clearAllData() {
