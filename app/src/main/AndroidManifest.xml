@@ -128,7 +128,7 @@
         <service android:name=".NotificationActivity.NotificationService" />
 
         <activity android:name=".Results_section.GetDetailReport"
-            android:label="Detailed Report"
+            android:label="Thông tin chi tiết"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 

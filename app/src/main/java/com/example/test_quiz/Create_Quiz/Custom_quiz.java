@@ -331,7 +331,7 @@ public class Custom_quiz extends AppCompatActivity {
         aRadio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedOption = "A";
+                selectedOption = aText.getText().toString().trim();
                 bRadio.setChecked(false);
                 cRadio.setChecked(false);
                 dRadio.setChecked(false);
@@ -340,7 +340,7 @@ public class Custom_quiz extends AppCompatActivity {
         bRadio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedOption = "B";
+                selectedOption = bText.getText().toString().trim();
                 aRadio.setChecked(false);
                 cRadio.setChecked(false);
                 dRadio.setChecked(false);
@@ -349,7 +349,7 @@ public class Custom_quiz extends AppCompatActivity {
         cRadio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedOption = "C";
+                selectedOption = cText.getText().toString().trim();
                 bRadio.setChecked(false);
                 aRadio.setChecked(false);
                 dRadio.setChecked(false);
@@ -358,7 +358,7 @@ public class Custom_quiz extends AppCompatActivity {
         dRadio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedOption = "D";
+                selectedOption = dText.getText().toString().trim();
                 bRadio.setChecked(false);
                 cRadio.setChecked(false);
                 aRadio.setChecked(false);

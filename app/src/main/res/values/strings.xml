@@ -8,7 +8,7 @@
     <string name="action_settings">Cài đặt</string>
     <string name="email_unverified">Xác minh email chưa hoàn tất. Vui lòng kiểm tra email của bạn.</string>
     <string name="email_sent">Email xác minh đã được gửi. Vui lòng kiểm tra email của bạn.</string>
-    <string name="Welcome">Chào mừng bạn trở lại, Người dùng</string>
+    <string name="Welcome">Chào mừng bạn</string>
     <string name="email">Email</string>
     <string name="minimum_password">Mật khẩu quá ngắn, vui lòng nhập ít nhất 6 ký tự!</string>
     <string name="auth_failed">Xác thực thất bại, vui lòng kiểm tra lại email và mật khẩu của bạn hoặc đăng ký</string>

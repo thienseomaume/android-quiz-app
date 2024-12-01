@@ -84,7 +84,7 @@ public class GetDetailReport extends AppCompatActivity {
         textView2.setText(getIntent().getStringExtra("DetailBranch"));
         textView3.setText(getIntent().getStringExtra("DetailSem"));
         textView4.setText(getIntent().getStringExtra("DetailSec"));
-        String Temp = getIntent().getStringExtra("TestNAME") + " results is: " +
+        String Temp = "Kết quả của đề " + getIntent().getStringExtra("TestNAME") + " : " +
                 getIntent().getStringExtra("Marks");
         textView5.setText(Temp);
     }

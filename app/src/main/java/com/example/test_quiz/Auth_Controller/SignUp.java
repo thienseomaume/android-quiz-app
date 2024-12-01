@@ -66,17 +66,17 @@ public class SignUp extends AppCompatActivity {
                 String password = inputPassword.getText().toString().trim();
 
                 if (TextUtils.isEmpty(email)) {
-                    inputEmail.setError("Enter valid Email");
+                    inputEmail.setError("Nhập sai email");
                     return;
                 }
 
                 if (TextUtils.isEmpty(password)) {
-                    inputPassword.setError("Password should be atleast length of 6!");
+                    inputPassword.setError("Độ dài mật khẩu tối thiểu là 6 ký tự");
                     return;
                 }
 
                 if (password.length() < 6) {
-                    Toast.makeText(getApplicationContext(), "Password too short, enter minimum 6 characters!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Độ dài mật khẩu tối thiểu là 6 ký tự", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -87,14 +87,14 @@ public class SignUp extends AppCompatActivity {
                         .addOnCompleteListener(SignUp.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
-                                Toast.makeText(SignUp.this, "createUserWithEmail:onComplete:" + task.isSuccessful(), Toast.LENGTH_SHORT).show();
+                                //Toast.makeText(SignUp.this, "tạo tài khoản:" + task.isSuccessful(), Toast.LENGTH_SHORT).show();
                                 avLoadingIndicatorView.setVisibility(View.GONE);
                                 avLoadingIndicatorView.smoothToHide();
                                 // If sign in fails, display a message to the user. If sign in succeeds
                                 // the auth state listener will be notified and logic to handle the
                                 // signed in user can be handled in the listener.
                                 if (!task.isSuccessful()) {
-                                    Toasty.error(SignUp.this,"Authentication failed."+ task.getException(),
+                                    Toasty.error(SignUp.this,"xác thực thất bại."+ task.getException(),
                                             Toasty.LENGTH_SHORT).show();
                                 } else {
                                     Objects.requireNonNull(auth.getCurrentUser()).sendEmailVerification();

@@ -66,7 +66,7 @@ public class Chat_Handler extends AppCompatActivity {
                 .addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                    username = dataSnapshot.child("name").getValue(String.class);
+                    username = dataSnapshot.child("nickName").getValue(String.class);
                     if(isAdmin)
                         username = "Admin";
             }

@@ -160,7 +160,7 @@ public class AttemptTest extends AppCompatActivity {
             if(answers[i]!=null&&answers[i].equals(questions.get(i).getAnswer())){
                 score++;
             }
-            String temp = (answers[i]!=null) ? "đáp án bạn đã chọn: "+ answers[i]+"\n":"bạn chưa chọn đáp án \n ";
+            String temp = (answers[i]!=null) ? "Đáp án bạn đã chọn: "+ answers[i]+"\n":"Bạn chưa chọn đáp án \n ";
 
             list.add(temp +
                     "Đáp án đúng là :"+ questions.get(i).getAnswer()+"");

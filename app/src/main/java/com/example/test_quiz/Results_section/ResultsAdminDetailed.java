@@ -276,8 +276,8 @@ public class ResultsAdminDetailed extends AppCompatActivity {
                             Intent intent = new Intent(ResultsAdminDetailed.this, GetDetailReport.class);
                             intent.putExtra("USERID", dataList.get(position).userID);
                             intent.putExtra("DetailID", dataList.get(position).user.nickName);
-                            intent.putExtra("DetailBranch", dataList.get(position).user.address);
-                            intent.putExtra("DetailSem", dataList.get(position).user.fullName);
+                            intent.putExtra("DetailBranch", dataList.get(position).user.fullName);
+                            intent.putExtra("DetailSem", dataList.get(position).user.address);
                             intent.putExtra("DetailSec", dataList.get(position).user.number);
                             intent.putExtra("TestNAME", testName);
                             intent.putExtra("Marks", dataList.get(position).score);
